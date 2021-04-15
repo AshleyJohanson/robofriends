@@ -1,8 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import tachyons from 'tachyons';
+import { robots } from './robots.js';
+import App from './containers/App.js';
 
 ReactDOM.render(
   <React.StrictMode>
